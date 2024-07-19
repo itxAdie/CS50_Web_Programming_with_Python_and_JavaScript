@@ -1,0 +1,20 @@
+body {
+    color: brown;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table, thead, tbody, td, tr {
+    color: brown;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid 1px;
+    border-collapse: collapse;
+    padding: 10px;
+
+}
+div{
+    width: 300px;
+    background-color: burlywood;
+    height: 500px;
+    text-align: center;
+}
