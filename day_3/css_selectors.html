@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CSS Selectors</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            body{
+                text-align: center;
+            }
+            h1{
+                color: bisque;
+                /* text-align: center; */
+            }
+            table, thead, tbody, td, tr{
+                border: 2px solid;
+                background-color: blanchedalmond; 
+                padding: 10px;
+                border-collapse: collapse;
+                border-color: black;
+
+            }
+             thead > tr > th{
+                background-color: black;
+                color: aliceblue;
+                font-family: monospace;
+                font-weight: bolder;
+                size: 16;
+                padding: 10px;
+
+            }
+            table.center {
+                margin-left: auto;
+                margin-right: auto;
+
+                }
+
+                a[href="http://knockknock.com"]{
+                    color: orangered;
+                    font-weight: bolder;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+                a[href="http://knockknock.com"]:hover{
+                    color: green;
+                    font-weight: bolder;
+                    font-family:  Tahoma, sans-serif;
+                }
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->       
+         <h1>This is a heading</h1>
+            this is some text
+      <!-- <div class="center"> -->
+        <table class="center">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Doing</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>Touseef</td>
+                    <td>Web Development</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Maryam</td>
+                    <td>Web Development</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>Talha</td>
+                    <td>Web Development</td>
+                </tr>
+                <tr>
+                    <td>04</td>
+                    <td>Adeel</td>
+                    <td>Web Development</td>
+                </tr>
+            </tbody>
+        </table>
+      <!-- </div> -->
+      <h1>These are some links</h1>
+      <a href="http://google.com">Google</a>
+      <a href="http://facebook.com">Facebook</a>
+      <a href="http://knockknock.com">KNOCK KNOCKS</a>
+        
+       
+        
+        <script src="" async defer></script>
+    </body>
+</html>
